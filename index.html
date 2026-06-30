@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The ENG Stack: Exoshell, NightShift, and Glassmind. Local-first, GPL-licensed AI tooling for people who still want the controls." />
+  <title>ENG Stack — Local-first AI tools for people who still want the controls</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="mesh" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ENG Stack home">
+      <span class="brand-mark">ENG</span>
+      <span class="brand-copy">local-first / free software / operator-owned</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#stack">Stack</a>
+      <a href="#manifesto">Manifesto</a>
+      <a href="#repos">Repos</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="kicker">EXOSHELL · NIGHTSHIFT · GLASSMIND</div>
+      <h1 id="hero-title">The ENG Stack is an open toolbox for local-first AI systems.</h1>
+      <p class="hero-copy">
+        Not a cloud brain. Not a rented cathedral. A GPL-oriented stack for engineers,
+        hackers, artists, note-hoarders, and weird little computer goblins who want AI
+        assistance without surrendering privacy, agency, or control.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#repos">View the repositories</a>
+        <a class="button ghost" href="#manifesto">Read the manifesto</a>
+      </div>
+      <div class="status-panel" aria-label="ENG Stack status readout">
+        <div><span>license posture</span><strong>GPL / copyleft</strong></div>
+        <div><span>runtime posture</span><strong>local-first</strong></div>
+        <div><span>human role</span><strong>operator final authority</strong></div>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack-grid" aria-labelledby="stack-title">
+      <div class="section-heading">
+        <p class="kicker">three tools / one posture</p>
+        <h2 id="stack-title">The stack</h2>
+      </div>
+
+      <article class="card tool-card exo">
+        <div class="card-topline">01 / shell</div>
+        <h3>Exoshell</h3>
+        <p>
+          A terminal-first cognitive shell for practitioners who want AI help without
+          giving up operational awareness. The shell stays primary. The assistant suggests,
+          explains, and preserves context; the human remains in control.
+        </p>
+        <a href="https://github.com/khodges42/exoshell" target="_blank" rel="noreferrer">Open Exoshell →</a>
+      </article>
+
+      <article class="card tool-card night">
+        <div class="card-topline">02 / pipeline</div>
+        <h3>NightShift</h3>
+        <p>
+          Auditable local-first AI coding pipelines. Agents are treated like unreliable
+          workers inside bounded, testable workflows: propose, validate, apply, check,
+          record, and leave artifacts for human review.
+        </p>
+        <a href="https://github.com/khodges42/nightshift" target="_blank" rel="noreferrer">Open NightShift →</a>
+      </article>
+
+      <article class="card tool-card glass">
+        <div class="card-topline">03 / memory</div>
+        <h3>Glassmind</h3>
+        <p>
+          Local retrieval and memory infrastructure for markdown knowledge bases. Your
+          notes stay local. Markdown stays canonical. The database is a rebuildable cache,
+          not a cloud-owned memory vault.
+        </p>
+        <a href="https://github.com/khodges42/glassmind" target="_blank" rel="noreferrer">Open Glassmind →</a>
+      </article>
+    </section>
+
+    <section id="manifesto" class="section manifesto" aria-labelledby="manifesto-title">
+      <div class="manifesto-copy">
+        <p class="kicker">manifesto / no black boxes on the critical path</p>
+        <h2 id="manifesto-title">AI tools should be community-owned cathedrals, not vendor-owned temples.</h2>
+        <p>
+          The ENG Stack is built around a simple belief: people should have the power to
+          inspect, modify, share, and run the tools that shape their thinking. Local-first
+          AI is not nostalgia. It is a practical defense of privacy, customization, repair,
+          and autonomy.
+        </p>
+        <p>
+          This project is aligned with the free software tradition: source code matters,
+          user freedom matters, and the right to build your own tools matters. GPL licensing
+          keeps those freedoms downstream. If someone improves the stack, the community
+          should be able to learn from it, fork it, repair it, and keep going.
+        </p>
+      </div>
+      <div class="principles" aria-label="Core principles">
+        <div><span>01</span><strong>Privacy by locality</strong><p>Your data should not need to leave your machine just to become useful.</p></div>
+        <div><span>02</span><strong>Customization by design</strong><p>Tools should fit your workflow instead of forcing you into a product funnel.</p></div>
+        <div><span>03</span><strong>Audit before autonomy</strong><p>AI agents are useful, but invisible automation is not trust.</p></div>
+        <div><span>04</span><strong>Freedom over dependency</strong><p>Run it, study it, change it, share it. Keep the keys in human hands.</p></div>
+      </div>
+    </section>
+
+    <section id="repos" class="section repo-strip" aria-labelledby="repos-title">
+      <div>
+        <p class="kicker">source available now</p>
+        <h2 id="repos-title">Clone the stack. Break it open. Make it yours.</h2>
+      </div>
+      <div class="repo-links">
+        <a href="https://github.com/khodges42/exoshell" target="_blank" rel="noreferrer"><span>github.com/khodges42/</span>exoshell</a>
+        <a href="https://github.com/khodges42/nightshift" target="_blank" rel="noreferrer"><span>github.com/khodges42/</span>nightshift</a>
+        <a href="https://github.com/khodges42/glassmind" target="_blank" rel="noreferrer"><span>github.com/khodges42/</span>glassmind</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>ENG Stack · local-first AI infrastructure · built for people who still want the controls</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
